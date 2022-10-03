@@ -1,0 +1,35 @@
+#bg-color{
+    height:100vh;
+    background-color:salmon;
+}
+
+#box-1{
+    height:200px;
+    width:200px;
+    background-color: brown;
+}
+
+/* 0px to 600px */
+@media screen and (max-width:600px) {
+    
+}
+
+/* 600px and above */
+@media screen and (min-width:600px){
+    #bg-color{
+        background-color: aquamarine;
+    }
+
+    #box-1{
+        display:none;
+    }
+}
+
+@media screen and (min-width:900px){
+    #bg-color{
+        background-color: violet;
+    }
+    #box-1{
+        display:block;
+    }
+}
